@@ -14,7 +14,7 @@ namespace Loopover.Templates
         public delegate void Function();
         private readonly Function Reset;
         private readonly Function Scramble;
-        private bool AllowSave { get; set; }
+        private bool AllowSave { get; set; } = true;
         private readonly string help = "[Enter]Scramble [Backspace]Pause/Resume [R]Reload [S]Save [Esc]Exit [Tab]Stats [Arrows]Move [Ctrl]Rotate";
         
         public Game3(Stats stats, Blocks blocks)
