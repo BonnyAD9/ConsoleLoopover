@@ -1,7 +1,44 @@
 # ConsoleLoopover
 Remake of Carkh's loopover for console in C# .NET Core
 
-### Colors
+Application saves statistics inside json file<br>
+On widows: `%appdata%\Loopover\save.json`<br>
+On linux should be: `home/.config/Loopover/save.json`
+
+Times made while trying scramble aren't saved
+
+### Sreenshots
+Game page:
+![image](https://user-images.githubusercontent.com/46282097/121363644-6d5b0d00-c937-11eb-820d-694f1c1341a3.png)
+
+Stats page:
+![image](https://user-images.githubusercontent.com/46282097/121363812-8ebbf900-c937-11eb-9cba-6a5d1e19a147.png)
+
+### Controls
+#### In game
+- [Enter] Scramble
+- [Arrows] Move around
+- [Ctrl + Arrows] Rotate
+- [R] Reload visuals
+- [S] Save statistics
+- [Tab] Show statistics
+- [Esc] Save and exit
+#### In statistics
+- [Up|Down Arrow] Next|Previus time
+- [Pg Up|Down] Move by one page at a time
+- [Home|End] Go to top|End
+- [Enter] Try scramble
+- [+|-] Next|Previous move
+- [Spacebar] Reset moves
+- [R] Reload visuals
+- [S] Save
+- [Tab] Back to game
+- [Esc] Save and exit
+#### In try scramble
+Same as in game
+- [Esc|Tab] Back
+
+### Color scheme
 Recommended color scheme for Windows Terminal:
 ```
 {
