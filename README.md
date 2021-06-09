@@ -19,6 +19,7 @@ Stats page:
 - [Enter] Scramble
 - [Arrows] Move around
 - [Ctrl + Arrows] Rotate
+- [Backspace] Pause/Resume (mainly for resizing the console window)
 - [R] Reload visuals
 - [S] Save statistics
 - [Tab] Show statistics
