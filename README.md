@@ -35,7 +35,7 @@ Stats page:
 - [S] Save
 - [Tab] Back to game
 - [Esc] Save and exit
-### In try scramble
+### While trying scramble
 Same as in game
 - [Esc|Tab] Back
 
