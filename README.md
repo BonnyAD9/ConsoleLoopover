@@ -1,4 +1,5 @@
 # ConsoleLoopover
+**This is repository is obsolete use [Loopover](https://github.com/BonnyAD9/Loopover) instead**
 Remake of Carkh's loopover for console in C# .NET Core
 
 Application saves statistics inside a json file<br>
